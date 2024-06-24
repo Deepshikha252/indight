@@ -1,0 +1,129 @@
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[13].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[13].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[13].use[5]!./src/components/ui/dashboard/PostCard/PostCard.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.PostCard {
+  background-color: var(--main-Bg);
+  color: var(--primary-color);
+  padding: 1.5rem;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 600px;
+  margin: 0 auto;
+  width: 100%;
+  min-width: 300px;
+}
+.PostCard .head {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+.PostCard .head p {
+  font-size: var(--font-md);
+  font-weight: bold;
+}
+.PostCard .head i {
+  font-size: 2rem;
+  color: var(--star-color);
+}
+.PostCard .head .time {
+  margin-top: 0.25rem;
+  font-size: var(--font-xs);
+}
+.PostCard .head.left {
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+.PostCard .body {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 0px 0px 1rem 0px;
+}
+.PostCard .body .post_title {
+  font-size: var(--font-xslg);
+  font-weight: normal;
+}
+.PostCard .body .action .action_head .star {
+  font-weight: bold;
+  font-size: var(--font-md);
+  color: var(--star-color);
+}
+.PostCard .body .action .action_head .action_title {
+  font-size: var(--font-xmd);
+}
+.PostCard .body .action .example {
+  margin-top: 1.5rem;
+}
+.PostCard .Like_Dislike_footer {
+  padding: 1rem;
+  padding-bottom: 0rem;
+  border-top: 1px solid var(--hoverColor);
+  display: flex;
+  gap: 2.5rem;
+  font-size: 1.5rem;
+}
+.PostCard .Like_Dislike_footer div {
+  height: 35px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: transparent;
+  transition: background-color 0.2s ease-in-out;
+}
+.PostCard .Like_Dislike_footer div:last-of-type {
+  margin-left: auto;
+}
+.PostCard .Like_Dislike_footer div:hover {
+  background-color: var(--hoverColor);
+}
+.PostCard .Like_Dislike_footerAlternate {
+  padding: 0.5rem 1rem;
+  /* padding-bottom: 0rem; */
+  display: flex;
+  gap: 2.5rem;
+  font-size: 1.5rem;
+  background: var(--hoverColor);
+  border-radius: 6px;
+}
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[13].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[13].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[13].use[5]!./src/app/dashboard/my_actions_list/styles.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.MyInsights {
+  background-color: var(--primary-color);
+}
+.MyInsights .header {
+  padding: 2rem 0px;
+}
+.MyInsights .header .title {
+  text-align: center;
+}
+.MyInsights .header .title h3 {
+  font-size: var(--font-lg);
+}
+.MyInsights .header .title h3 span {
+  font-size: var(--font-md);
+}
+.MyInsights .header .flex {
+  margin-top: 2rem;
+  display: flex;
+  gap: 42px;
+  justify-content: center;
+}
+.MyInsights .latestInsights {
+  margin: 34px 0px;
+}
+.MyInsights .latestInsights .list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 0px calc(var(--main-p-x) / 2);
+}
+.MyInsights .centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

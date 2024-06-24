@@ -1,0 +1,126 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[13].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[13].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[13].use[5]!./src/app/page.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.landingPage {
+  min-height: calc(100vh - var(--header-h) - 5rem);
+  padding-top: 5rem !important;
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  background-color: var(--main-Bg);
+  color: var(--primary-color);
+}
+.landingPage::before {
+  content: "";
+  top: 0px;
+  position: fixed;
+  left: 0px;
+  background-color: var(--main-Bg);
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+.landingPage .back {
+  position: absolute;
+  top: 1rem;
+  left: calc(var(--main-p-x));
+  opacity: 1;
+  font-weight: 800;
+  padding: 0.25rem 1rem;
+  border-radius: 5px;
+  border: none;
+  background-color: var(--star-color);
+}
+.landingPage .back[data-state=false] {
+  opacity: 0;
+}
+.landingPage .back[data-state=true] {
+  opacity: 1;
+}
+.landingPage .back:hover {
+  opacity: 0.7;
+}
+.landingPage h1 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 45.46px;
+  letter-spacing: 1px;
+}
+.landingPage h1::first-letter {
+  color: var(--star-color);
+}
+.landingPage h3 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25.25px;
+  text-align: center;
+}
+.landingPage form {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 0px 2rem;
+  max-width: 500px;
+  min-width: 350px;
+  opacity: 0;
+  transform-origin: center center;
+  animation: scaleUp 1.5s forwards;
+}
+.landingPage form .flex-column {
+  position: relative;
+  padding-top: 1rem;
+  display: block;
+  width: 100%;
+  text-align: start;
+}
+.landingPage form .flex-column input {
+  width: 100%;
+  background-color: transparent;
+  padding: 6px 0px;
+  border: none;
+  outline: none;
+  color: #FFF;
+  font-size: 18px;
+  border-bottom: 1px solid #FFF;
+  transition: border-color 0.3s ease-in-out;
+}
+.landingPage form .flex-column input:focus-within {
+  border-color: var(--star-color);
+}
+.landingPage form .radio-btn {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-evenly;
+  animation: scaleUp 1.5s forwards;
+}
+.landingPage form .radio-btn svg {
+  transition: all 0.1s ease-in-out;
+  padding: 5px;
+  border-radius: 50%;
+}
+.landingPage form .radio-btn svg:hover {
+  background-color: rgba(167, 167, 167, 0.09);
+}
+@keyframes scaleUp {
+  100% {
+    opacity: 1;
+  }
+}
+.landingPage .link {
+  line-height: 4px;
+  color: var(--star-color);
+  border: none;
+  margin-top: 2rem;
+  background: none;
+  font-weight: 800;
+  text-decoration: underline;
+}
